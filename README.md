@@ -1,6 +1,6 @@
 # vim-environment
 
-This repository contains my vim and kitty (terminal emulator) configurations.
+This repository contains my amazing vim and kitty (terminal emulator) configurations.
 
 ## Setup
 1. Clone this repository in ~/git/
