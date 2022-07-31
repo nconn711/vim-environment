@@ -1,0 +1,4 @@
+kitty/kitty-themes
+.vim/undo
+*.netrwhist
+*.DS_Store
