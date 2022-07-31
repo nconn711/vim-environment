@@ -24,3 +24,6 @@ git clone https://github.com/nconn711/vim-environment.git ~/git/vim-environment
 ╲┃┈┈┈┈╭━┳━━━━╯<br />
 ╲┣━━━━━━┫<br />
 
+## Resources
+- kitty terminal emulator: https://sw.kovidgoyal.net/kitty/
+- vim-airline plugin: https://github.com/vim-airline/vim-airline
