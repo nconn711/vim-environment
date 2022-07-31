@@ -4,7 +4,11 @@ This repository contains my vim and kitty (terminal emulator) configurations.
 
 ## Setup
 1. Clone this repository in ~/git/
-2. Run the following command:
+```
+mkdir ~/git
+git clone https://github.com/nconn711/vim-environment.git ~/git/vim-environment
+```
+3. Run the following command:
 ```
 ~/git/vim-environment/setup.sh
 ```
