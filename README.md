@@ -1,9 +1,13 @@
 # vim-environment
 
-This repository contains my amazing vim and kitty (terminal emulator) configurations.
+This repository contains my vim and kitty (terminal emulator) environment for MacOS.
 
 ## Setup
-1. Clone this repository in ~/git/
+1. Install Kitty terminal emulator
+```
+curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
+```
+2. Clone this repository in ~/git/
 ```
 mkdir ~/git
 git clone https://github.com/nconn711/vim-environment.git ~/git/vim-environment
@@ -12,17 +16,7 @@ git clone https://github.com/nconn711/vim-environment.git ~/git/vim-environment
 ```
 ~/git/vim-environment/setup.sh
 ```
-3. Enjoy my OP setup ;)
-4. Don't bucher it :/
-
-╭━┳━╭━╭━╮╮<br />
-┃┈┈┈┣▅╋▅┫┃<br />
-┃┈┃┈╰━╰━━━━━━╮<br />
-╰┳╯┈┈┈┈┈┈┈┈┈◢▉◣<br />
-╲┃┈┈┈┈┈┈┈┈┈┈▉▉▉<br />
-╲┃┈┈┈┈┈┈┈┈┈┈◥▉◤<br />
-╲┃┈┈┈┈╭━┳━━━━╯<br />
-╲┣━━━━━━┫<br />
+4. Delete vscode ;)
 
 ## Resources
 - kitty terminal emulator: https://sw.kovidgoyal.net/kitty/
