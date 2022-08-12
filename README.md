@@ -3,7 +3,7 @@
 This repository contains my vim and kitty (terminal emulator) environment for MacOS.
 
 ## Setup
-1. Install Kitty terminal emulator
+1. Install Kitty terminal emulator (referenced from their instructions)
 ```
 curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
 ```
