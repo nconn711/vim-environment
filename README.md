@@ -16,7 +16,12 @@ git clone https://github.com/nconn711/vim-environment.git ~/git/vim-environment
 ```
 ~/git/vim-environment/setup.sh
 ```
-4. Delete vscode ;)
+4. Add this following line to your ~/.bashrc or ~/.zshrc (depending on what shell you use)
+```
+alias ssh='kitty +kitty ssh'
+```
+5. Restart Kitty (close and quit application then open again - needed for changes to take effect)
+6. Delete vscode ;)
 
 ## Key Bindings
 ### VIM
