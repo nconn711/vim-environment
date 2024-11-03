@@ -170,6 +170,11 @@ endtry
 
 set background=dark
 
+" Customize specific highlight groups
+highlight Visual ctermfg=black ctermbg=white guifg=#ffffff guibg=#000000
+highlight Search ctermfg=black ctermbg=white guifg=#ffffff guibg=#000000
+highlight IncSearch ctermfg=black ctermbg=white guifg=#ffffff guibg=#000000
+
 " Set extra options when running in GUI mode
 if has("gui_running")
     set guioptions-=T
@@ -257,6 +262,9 @@ set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ Line:\ %l\ \ Column:\ %c
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Editing mappings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Don't yank highlighted text when pasting over it
+xnoremap p pgvy
 
 " Fast saving
 nmap <leader>w :w!<cr>
